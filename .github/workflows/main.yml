@@ -42,7 +42,7 @@ jobs:
 
       - name: python3
         env:
-          SYSTEM_VERSION_COMPAT: 1
+          SYSTEM_VERSION_COMPAT: 0
         run: |
           which python3
           which pip3
