@@ -34,6 +34,7 @@ jobs:
           which python3
           which pip3
           pip3 debug -v|grep -v macosx_10_
+          python3 -c 'import platform;print(platform.mac_ver())'
       
       - uses: actions/setup-python@v3
         with:
@@ -44,3 +45,4 @@ jobs:
           which python3
           which pip3
           pip3 debug -v|grep -v macosx_10_
+          python3 -c 'import platform;print(platform.mac_ver())'
